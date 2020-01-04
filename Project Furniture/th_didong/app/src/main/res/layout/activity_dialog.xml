@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".dialog"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/item"
+        android:text="Create Account ?"
+        android:textAppearance="@style/welcome_to"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/btnOK"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/item"
+        android:background="@android:color/holo_red_light"/>
+    <Button
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCancel"
+        android:layout_marginTop="4dp"
+        android:text="cancel"
+        android:layout_below="@id/btnOK"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_red_light"/>
+</RelativeLayout>
